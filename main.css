@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    height: 800px;
+    /* border: 1px solid #fff001; */
+    margin: 50px auto;
+    position: relative;
+}
+.one{
+    text-transform: uppercase;
+        color: #fff;
+        background-color: orangered;
+        width: 130px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 15%;
+        top: 5%;
+}
+.one::after{
+    content: "";
+        width: 200px;
+        height: 100%;
+        background-color: orangered;
+        opacity: 0.4;
+        position: absolute;
+        left: -150%;
+        top: 0;
+}
+.line{
+    width: 85%;
+        height: 5px;
+        background-color: #ddd;
+        position: absolute;
+        left: 15%;
+        top: 8%;
+        z-index: -2;
+}
+.view{
+    width: 90px;
+        height: 50px;
+        background-color: #ddd;
+        color: #777;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 85%;
+        top: 5%;
+        text-transform: uppercase;
+}
+.arrow{
+    width: 40px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 91.5%;
+        top: 5%;
+        background-color: orangered;
+        color: #777;
+}
+.info{
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.info>div{
+    width: 100%;
+    height: calc(90% / 3);
+    background-color: #ddd;
+    position: relative;
+}
+.info .first .date{
+    width: 6%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #777;
+}
+.first img{
+    width: 10%;
+        height: 100%;
+        position: absolute;
+        left: 6%;
+        top: 0;
+}
+.first .head{
+    text-transform: capitalize;
+        position: absolute;
+        left: 20%;
+        top: 35%;
+}
+.first .title{
+    width: 35%;
+        height: 20%;
+        /* border: 1px solid #00f; */
+        position: absolute;
+        left: 20%;
+        top: 60%;
+        display: flex;
+        justify-content: space-between;
+}
+.title > div{
+    width: calc(90% / 4);
+    height: 100%;
+}
+.info .second .date {
+    width: 6%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #777;
+}
+
+.second img {
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    left: 6%;
+    top: 0;
+}
+
+.second .head {
+    text-transform: capitalize;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.second .title {
+    width: 35%;
+    height: 20%;
+    /* border: 1px solid #00f; */
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.info .third .date {
+    width: 6%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #777;
+}
+
+.third img {
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    left: 6%;
+    top: 0;
+}
+
+.third .head {
+    text-transform: capitalize;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.third .title {
+    width: 35%;
+    height: 20%;
+    /* border: 1px solid #00f; */
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    display: flex;
+    justify-content: space-between;
+}
